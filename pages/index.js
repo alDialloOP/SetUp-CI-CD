@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 import LangageSelector from '../components/Langage-selector';
 import styles from '../styles/Home.module.css';
 
-export default function Home(props) {
+export default function Home() {
 
   const { t, i18n } = useTranslation();
 
